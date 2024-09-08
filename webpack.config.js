@@ -1,14 +1,5 @@
 const path = require("path");
 
-/**
- * Loaders:
- * 1. loader load inline images as data URL
- * 2. transform files from a different language (like TypeScript) to JavaScript
- *
- * It's possible to specify loaders in an import statement
- * E.G. - import Styles from 'style-loader!css-loader?modules!./styles.css';
- */
-
 module.exports = {
   entry: "./src/index.js",
   output: {
